@@ -14,7 +14,56 @@
         </header>
         <main>
             <h1>History of Version Control Systems</h1>
-             
+
+            <h3>Evolution of VCS</h3>
+            <p>Version control systems (VCS) have evolved from centralized 
+                tools to distributed models. Early systems relied on a single server, while 
+                modern ones support collaborative, decentralized workflows.</p>
+            <p>Here is a brief timeline of key developments:</p>
+            <ul>
+                <li><b>1972: Source Code Control System (SCCS)</b> - One of the first version control systems, developed at Bell Labs. Tracked code changes on IBM mainframes.</li>
+                <li><b>1982: Revision Control System (RCS)</b> - Local tool for tracking individual file changes using delta storage.</li>
+                <li><b>1986: Concurrent Versions System (CVS)</b> - Enabled networked collaboration on projects. Popular in the 1990s despite technical limitations.</li>
+                <li><b>2000: Subversion (SVN)</b> - Centralized system with atomic commits and better file handling. Designed to improve on CVS.</li>
+                <li><b>2005: Git and Mercurial</b> - Introduced distributed version control. Git, created by Linus Torvalds, became the industry leader.</li>
+                <li><b>2008: GitHub</b> - Web platform built on Git, offering features like pull requests and issue tracking. Accelerated Git adoption.</li>
+                <li><b>2010s: Adoption of Git</b> - Widespread migration from older systems (CVS, SVN) to Git across open-source and enterprise projects.</li>
+                <li><b>Late 2010s: GitOps and CI/CD Integration</b> - Git used to manage infrastructure. CI/CD pipelines and cloud-hosted VCS tools became standard.</li>
+                <li><b>2020s: Artificial Intelligence and Cloud Collaboration</b> - Platforms like GitHub reached massive scale. AI tools began supporting code reviews and management.</li>
+            </ul>
+
+            <h3>Difference between Centralized and Distributed Version Control</h3>
+            <p>Version control systems can be centralized or distributed. Centralized 
+            systems, like RCS, CVS, and Subversion, use a single central server where 
+            all code is stored. Developers must connect to this server to pull updates and 
+            commit changes. While simple and easy to manage, centralized systems rely 
+            heavily on server availability, creating a single point of failure. Branching 
+            and merging are also more difficult, limiting flexible workflows.</p>
+
+            <p>Distributed version control systems (DVCS), such as Git and Mercurial, give 
+            every developer a complete copy of the repository and its history. This allows 
+            for offline commits and faster local operations. Developers can later sync their 
+            changes by pushing or pulling from others or a central repository.</p>
+            
+            <h3>Why distributed VCS changed the game?</h3>
+
+            <p>The biggest advantage of distributed VCS is how they handle branching and 
+            merging. DVCS makes these operations easy and efficient, supporting parallel 
+            development and non-linear workflows. This flexibility has made distributed 
+            systems the standard in modern software development.</p>
+
+            <p><b>Key benefits of distributed VCS:</b></p>
+            <ul>
+                <li>Offline work and full local history</li>
+                <li>Strong branching and merging support</li>
+                <li>Multiple collaboration models</li>
+                <li>Built-in redundancy and resilience</li>
+            </ul>
+
+            <p>In summary, distributed VCS offer greater flexibility and reliability than 
+            centralized systems, which is why tools like Git dominate today’s 
+            development workflows.</p>
+
         </main>
     </body>
 </html>
